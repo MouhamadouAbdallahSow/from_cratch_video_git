@@ -1,0 +1,249 @@
+notes des commande github
+
+LIEN DE LA VIDEO YOUTUBE 
+
+
+ACER ASPIRE 5@sowpc MINGW64 ~
+$ pwd //voir le chemin 
+/c/Users/ACER ASPIRE 5
+
+ACER ASPIRE 5@sowpc MINGW64 ~
+$ cd desktop //cd = change directory
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop
+$ mkdir github //creer un dossier nomme github dans desktop  
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop
+$ cd github aller vers le dossier github qu'on vient de creer 
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github
+$ ls  //lister ce qui est dans le dossier github 
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github
+$ touch commandes_git.txt  //creer un fichier commandes_git.txt 
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github
+$ ls
+commandes_git.txt  //le fichier a bien ete creer 
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github
+$
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github
+$ cd ..
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop
+$ git config --global --list
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+user.name=apollo11
+user.email=sowma@ept.sn
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop
+$ cd github
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github
+$ git init
+Initialized empty Git repository in C:/Users/ACER ASPIRE 5/Desktop/github/.git/
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ code .
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git add .
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   commandes_git.txt
+        new file:   index.html
+        new file:   resume_commandes.png
+
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git commit -m "fist version of the course "
+[master (root-commit) d2e2a22] fist version of the course
+ 3 files changed, 45 insertions(+)
+ create mode 100644 commandes_git.txt
+ create mode 100644 index.html
+ create mode 100644 resume_commandes.png
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git log
+commit d2e2a22a255a4b6d433704fd3cb19aa6c353b488 (HEAD -> master)
+Author: apollo11 <sowma@ept.sn>
+Date:   Mon Feb 12 18:59:47 2024 +0000
+
+    fist version of the course
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git add .
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git commit -m "second version with a lot of sentence "
+[master e55bc22] second version with a lot of sentence
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git log
+commit e55bc228f1edd38e87020faeeea168dffb93fb48 (HEAD -> master)
+Author: apollo11 <sowma@ept.sn>
+Date:   Mon Feb 12 19:15:56 2024 +0000
+
+    second version with a lot of sentence
+
+commit d2e2a22a255a4b6d433704fd3cb19aa6c353b488
+Author: apollo11 <sowma@ept.sn>
+Date:   Mon Feb 12 18:59:47 2024 +0000
+
+    fist version of the course
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git show ^C
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git show e55bc228f1edd38e87020faeeea168dffb93fb48
+commit e55bc228f1edd38e87020faeeea168dffb93fb48 (HEAD -> master)
+Author: apollo11 <sowma@ept.sn>
+Date:   Mon Feb 12 19:15:56 2024 +0000
+
+    second version with a lot of sentence
+
+diff --git a/index.html b/index.html
+index c3afd21..64aefba 100644
+--- a/index.html
++++ b/index.html
+@@ -7,12 +7,13 @@
+ </head>
+ <body>
+     <h1>COURS GITHUB</h1>
+-    <h2>version 1</h2>
++    <h2>version </h2>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+         Itaque ipsam deserunt iure a nam obcaecati animi provident
+         perferendis atque temporibus rem debitis facere optio in molestiae quam,
+         accusantium possimus at?
+     </p>
++    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, sapiente odit amet architecto inventore qui quos quae at natus. Officiis fuga esse possimus praesentium suscipit et dolore similique voluptas voluptate dolorum, minima odit tempora unde quae ut voluptatem hic amet, eius tenetur ad blanditiis, aut illum. Quam asperiores iure non assumenda! Nulla quasi pariatur impedit ex voluptatum sed qui blanditiis odit illum, dolores eum modi repellendus dolorem aut. Et fuga officiis dolor dolorem vero facere provident ipsa numquam! Iste sit fuga ut sequi quo. Unde vitae commodi maxime assumenda! Eum nemo fugit dolores harum alias ratione, iste nisi maxime expedita officia tenetur in laboriosam cum voluptas facere id repudiandae itaque blanditiis! Rem voluptatibus ratione recusandae labore totam aliquam non placeat cupiditate optio ea porro ipsa accusantium pariatur, maiores voluptate nam accusamus atque dolorem. Autem recusandae ullam sunt non et delectus error voluptate explicabo qui itaque quod assumenda voluptatibus omnis, exercitationem quos consequuntur. Unde consequatur soluta voluptatibus iste necessitatibus ex optio id magni quasi! Nam, fuga? Commodi quia consectetur expedita pariatur explicabo ex officiis, dolore corrupti doloribus sunt quas aperiam recusandae fugiat qui fugit nulla voluptate a excepturi temporibus magnam quod. Itaque corporis porro eaque ipsum, dolor pariatur facere natus optio odit hic iure laudantium amet veniam fugit praesentium suscipit. Ex expedita est obcaecati, illo aliquam vel quasi non pariatur a consequatur architecto. Dolores quidem pariatur dolorem dicta quisquam optio voluptate illum excepturi accusamus corporis numquam sed nihil laudantium facere, vel dolor delectus aliquid aspernatur architecto culpa! Rerum voluptates voluptatem tempora sapiente asperiores pariatur accusantium inventore tempore eaque sed similique magnam doloribus maiores ipsum eos corporis, consequuntur distinctio neque! In vel accusamus recusandae dolore impedit cupiditate ipsum totam, odio ex quibusdam nam magnam voluptate consequuntur, sequi nulla ipsa! Consequuntur accusantium repellat, itaque cum est, vitae, unde quos officiis quidem ea ipsam ducimus fugiat repudiandae numquam ipsa. Modi voluptatum dolorem unde? Est delectus debitis, consectetur sit ea nesciunt minus quas officia maiores consequatur nihil similique ducimus laboriosam voluptatum. Voluptate consectetur vero tempore nesciunt dolor asperiores quae est incidunt, molestiae hic numquam quia? Atque ratione placeat quos assumenda tenetur reiciendis nostrum delectus necessitatibus odit porro iste ipsa iusto perspiciatis officia iure, autem veritatis eaque ad architecto nulla, laborum ut explicabo! Blanditiis ab magnam praesentium placeat voluptates dolorum quae quidem eum autem id totam optio dolorem consequuntur doloremque sint impedit, vitae dicta, cupiditate quo modi? In placeat alias modi quidem, quasi reiciendis deleniti voluptatibus.</p>
+
+ </body>
+ </html>
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ GIT STATUS
+git: 'STATUS' is not a git command. See 'git --help'.
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git log
+commit e55bc228f1edd38e87020faeeea168dffb93fb48 (HEAD -> master)
+Author: apollo11 <sowma@ept.sn>
+Date:   Mon Feb 12 19:15:56 2024 +0000
+
+    second version with a lot of sentence
+
+commit d2e2a22a255a4b6d433704fd3cb19aa6c353b488
+Author: apollo11 <sowma@ept.sn>
+Date:   Mon Feb 12 18:59:47 2024 +0000
+
+    fist version of the course
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ --help
+bash: --help: command not found
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git --help
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$ git help -g
+The Git concept guides are:
+   core-tutorial    A Git core tutorial for developers
+   credentials      Providing usernames and passwords to Git
+   cvs-migration    Git for CVS users
+   diffcore         Tweaking diff output
+   everyday         A useful minimum set of commands for Everyday Git
+   faq              Frequently asked questions about using Git
+   glossary         A Git Glossary
+   namespaces       Git namespaces
+   remote-helpers   Helper programs to interact with remote repositories
+   submodules       Mounting one repository inside another
+   tutorial         A tutorial introduction to Git
+   tutorial-2       A tutorial introduction to Git: part two
+   workflows        An overview of recommended workflows with Git
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
+$
