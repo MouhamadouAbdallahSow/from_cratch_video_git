@@ -1,6 +1,6 @@
 notes des commande github
-
-LIEN DE LA VIDEO YOUTUBE 
+LIEN DE SON GITHUB : https://github.com/freeCodeCamp/freeCodeCamp
+LIEN DE LA VIDEO YOUTUBE : https://www.youtube.com/watch?v=eXF0epLeCgo&t=1229s
 
 
 ACER ASPIRE 5@sowpc MINGW64 ~
