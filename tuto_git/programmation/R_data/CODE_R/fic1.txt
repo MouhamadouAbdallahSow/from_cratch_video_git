@@ -1,0 +1,5 @@
+"nom";"age";"sexe";"taille";"poids"
+"mouhamed";"21";"M",123,80
+"moustapha";22;"M";185;85
+"Laila";;"F";179;75
+"Fatima";22;"F";169;69

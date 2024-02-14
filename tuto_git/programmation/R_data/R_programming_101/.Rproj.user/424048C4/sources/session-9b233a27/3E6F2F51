@@ -1,0 +1,27 @@
+{
+    "id": "3E6F2F51",
+    "path": "~/programmation/R_data/R_programming_101/importData.R",
+    "project_path": "importData.R",
+    "type": "r_source",
+    "hash": "661802531",
+    "contents": "",
+    "dirty": false,
+    "created": 1703156809894.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "46,12",
+        "scrollLine": "32"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1706348048,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1706348048565,
+    "read_only": false,
+    "read_only_alternatives": []
+}

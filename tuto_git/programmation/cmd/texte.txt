@@ -1,0 +1,10 @@
+Les commandes du DOS 
+Ce chapitre a pour objectif de classifier les commandes pour en donner une vue d’ensemble 
+facile à appréhender. Nous n’allons pas reprendre ici l’intégralité des commandes du DOS. 
+Tous les détails sur chaque commande sont disponibles en tapant le nom de la commande 
+suivi de l’option “ point d’interrogation ” /? , la seule option qui est reprise par toutes les 
+commandes. 
+La commande HELP qui existait pourtant dans les anciennes versions DOS a disparu dans les 
+versions Windows 98 et Millénium pour réapparaître dans les versions ultérieures. Elle donne 
+la liste de toutes les commandes du DOS avec une ligne d’explication pour chacune. 
+ Commandes “ répertoires ” 

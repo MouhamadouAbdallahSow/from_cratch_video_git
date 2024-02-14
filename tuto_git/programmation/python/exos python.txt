@@ -1,0 +1,10 @@
+exos 1 :
+ecrire un programme python demendant de creer une liste d'entiers et de supprimer les elements duppliquer d'une listes
+exos 2 : 
+programme python qui demande a ;'utilisateur de saisir une listes d'entiers L et qui renvoie le minimum de la liste sans utiliser de fonction predefinie en python 
+exos 3: application fichier en python 
+1)les 3 notes de n etudiants --> dict = [prenom ,nom ,note, rang]
+
+2)calculer leur moyenne 
+
+3)faire le classement dans un tableau avec les tirets du 6(---)ou (|)
