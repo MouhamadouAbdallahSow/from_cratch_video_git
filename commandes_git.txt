@@ -247,3 +247,65 @@ See 'git help git' for an overview of the system.
 
 ACER ASPIRE 5@sowpc MINGW64 ~/desktop/github (master)
 $
+ACER ASPIRE 5@sowpc MINGW64 ~/Desktop/github
+$ cd ..
+
+ACER ASPIRE 5@sowpc MINGW64 ~/Desktop
+$ cd from_cratch_video_git/
+
+ACER ASPIRE 5@sowpc MINGW64 ~/Desktop/from_cratch_video_git (main)
+$ git add .
+
+ACER ASPIRE 5@sowpc MINGW64 ~/Desktop/from_cratch_video_git (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   commandes_git.txt
+        new file:   index.html
+        new file:   resume_commandes.png
+
+
+ACER ASPIRE 5@sowpc MINGW64 ~/Desktop/from_cratch_video_git (main)
+$ git commit -m "premiere envoir sur internet with github"
+[main (root-commit) 733f748] premiere envoir sur internet with github
+ 3 files changed, 268 insertions(+)
+ create mode 100644 commandes_git.txt
+ create mode 100644 index.html
+ create mode 100644 resume_commandes.png
+
+ACER ASPIRE 5@sowpc MINGW64 ~/Desktop/from_cratch_video_git (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+ACER ASPIRE 5@sowpc MINGW64 ~/Desktop/from_cratch_video_git (main)
+$ git log
+commit 733f748fb3ad471f72754546cf1160fa157066a1 (HEAD -> main)
+Author: apollo11 <sowma@ept.sn>
+Date:   Wed Feb 14 09:44:38 2024 +0000
+
+    premiere envoir sur internet with github
+ACER ASPIRE 5@sowpc MINGW64 ~/Desktop/from_cratch_video_git (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 141.25 KiB | 14.12 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/MouhamadouAbdallahSow/from_cratch_video_git.git
+ * [new branch]      main -> main
+
+ACER ASPIRE 5@sowpc MINGW64 ~/Desktop/from_cratch_video_git (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
